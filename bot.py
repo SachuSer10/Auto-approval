@@ -30,7 +30,7 @@ async def autoapprove(c, m):
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
         await c.send_photo(
             m.from_user.id, 
-            photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+            photo='https://graph.org/file/ad1f1f1943de7834dd1f6.jpg', 
             caption=caption, 
             reply_markup=markup
         )
@@ -48,12 +48,12 @@ async def start(c, m):
 I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
     button = [[
-            InlineKeyboardButton('💎JOIN GROUP✅️', url='https://t.me/mallumoviesgroup7')
+            InlineKeyboardButton('⚒️JOIN GROUP⚒️', url='https://t.me/mallumoviesgroup7')
             ],[
-            InlineKeyboardButton('📣UPDATES🔔', url='https://t.me/MovieFlix_TG')
+            InlineKeyboardButton('📣UPDATES📣', url='https://t.me/MovieFlix_TG')
     ]]
     await m.reply_photo(
-        photo='https://telegra.ph/file/f7738f04ea74e16c9db02.jpg', 
+        photo='https://graph.org/file/ad1f1f1943de7834dd1f6.jpg', 
         caption=text,
         reply_markup=InlineKeyboardMarkup(button),
         quote=True
